@@ -31,7 +31,7 @@ img{
   width:40%;
 }
 #menu-p a{
-  color: #000000;
+  color: #fff;
 }
 #menu-p a:hover{
   text-decoration: none;
@@ -46,6 +46,41 @@ img{
 #menu-p ul li{
   display: inline;
   padding: 40.5px 10px;
+}
+/*Estilos para footer*/
+#pie-p{
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2em;
+  max-width: 900px;
+}
+#pie-p > div{
+  width: 25%;
+}
+#pie-p > div > h3{
+  padding-left: 5%;
+}
+#pie-p img{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+#pie-p ul{
+  padding-left: 5%;
+  list-style: none;
+}
+#pie-p a{
+  text-decoration: none;
+  color: #000000;
+  vertical-align: middle;
+}
+#pie-p ul li{
+  padding: 3% 1%;
+}
+#redes a{
+  vertical-align: super;
 }
 /*Clases*/
 .actual{
