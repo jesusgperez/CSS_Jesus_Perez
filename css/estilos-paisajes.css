@@ -161,6 +161,21 @@ img{
     text-align: justify;
   }
 }
+@media all and (max-width: 388px){
+  header{
+    height: 150px;
+  }
+  #titulo{
+    height: 100px;
+  }
+  #menu-p{
+    height: 50px;
+  }
+}
+@media all and (min-width: 900px){
+  body{
+    margin: 2% auto;
+  }
 }
 @-webkit-keyframes anim-slidein{
   0%{
